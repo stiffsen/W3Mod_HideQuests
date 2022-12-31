@@ -1,0 +1,3 @@
+[EMPTY_CONTEXT]
+IK_Pad_X_SQUARE=(Action=ToggleHideQuest)
+IK_H=(Action=ToggleHideQuest)
