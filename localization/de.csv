@@ -1,0 +1,9 @@
+;meta[language=de]
+; id      |key(hex)|key(str)| text
+;
+; comment lines use ; as first character
+; all comment lines (except the two line header) will be ignored
+;
+2117517000|        |panel_journal_queststatus_hidden|Versteckt
+2117517001|        |panel_journal_statuschange_hidden|Quest versteckt: 
+2117517002|        |panel_journal_statuschange_visible|Quest sichtbar: 
