@@ -13,6 +13,10 @@ On my second playthrough, I hated how so many quests that I don't intend to comp
 - Hide/Unhide quests in the quest journal
 - Sort quests by level in descending order (except finished and aborted quests)
 
+:: LOCALIZATION ::
+
+If strings for your language are missing, please go to the localization sub-folder and provide them. Instructions can be found there.
+
 
 :: INSTALLATION USING MODMANAGER ::
 
