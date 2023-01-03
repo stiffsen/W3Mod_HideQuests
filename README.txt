@@ -13,6 +13,7 @@ On my second playthrough, I hated how so many quests that I don't intend to comp
 - Hide/Unhide quests in the quest journal
 - Sort quests by level in descending order (except finished and aborted quests)
 
+
 :: LOCALIZATION ::
 
 If strings for your language are missing, please go to the localization sub-folder and provide them. Instructions can be found there.
@@ -47,6 +48,13 @@ Unhiding
 - Select the previously hidden quest in the "hidden" category and press the button for "ToggleHideQuest" to unhide the quest. 
 - A small popup will show indicating that the quest is now marked as not-hidden.
 - If you close and reopen the quest journal, the quest will now show in its original dropdown category, rather than under "hidden".
+
+
+:: INFORMATION FOR MODDERS ::
+
+If you want to use the "Hide Quests" functionality in your mod as well, you can find an API definition under:
+	modHideQuests\API\content\scripts\hidequests\hideQuestsAPI.ws
+This file contains dummy implementations of the required functions that are actually implemented by this mod. Just copy the content folder to your mod directory and use the defined functions. You should instruct your users to always let Script Merger use the complete hideQuestsAPI.ws of "Hide Quests" or have "Hide Quests" load before your mod and skip the merging.
 
 
 :: CREDITS ::
