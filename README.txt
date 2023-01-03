@@ -21,8 +21,16 @@ If strings for your language are missing, please go to the localization sub-fold
 
 :: INSTALLATION USING MODMANAGER ::
 
-- As usual: Just add the downloaded archive via ModManager and use ScriptMerger to resolve any conflicts with other mods.
+- Add the downloaded archive via ModManager
+- ScriptMerger to resolve any conflicts with other mods. 
+  - If there is a conflict in the file hideQuestsAPI.ws, always use the file provided by this mod, overwriting the existing one. (This is a conflict by design!)
 - Optional: Change default input binding for action "ToggleHideQuest" in your [Documents]\The Witcher 3\input.settings in the section [EMPTY_CONTEXT].
+
+
+:: INSTALLATION USING VORTEX IS NOT SUPPORTED ::
+
+Automatic installation via Vortex does not work because Vortex tries to merge a shipped XML file (which is wrong) and interprets the encoding incorrectly (which is why it shows very cryptic symbols in the error message). Multiple mods are affected by this issue, including FriendlyHUD and Preparations. Some people have tried to install this mod manually (described below) and register with Vortex afterwards, but this also yielded no satisfactory results. Therefore, this mod is sadly incompatible with Vortex. If you want to use this mod, I suggest installing TW3MM﻿. (Don't forget to backup your "[Documents]\The Witcher 3" folder before deactivating Witcher 3 in Vortex.)
+
 
 :: MANUAL INSTALLATION ::
 
