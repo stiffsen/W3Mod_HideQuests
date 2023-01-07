@@ -22,7 +22,7 @@ If strings for your language are missing, please go to the localization sub-fold
 :: INSTALLATION USING MODMANAGER ::
 
 - Add the downloaded archive via ModManager
-- ScriptMerger to resolve any conflicts with other mods. 
+- ScriptMerger to resolve any conflicts with other mods. DO NOT MERGE UNBUNDLED XML!
   - If there is a conflict in the file hideQuestsAPI.ws, always use the file provided by this mod, overwriting the existing one. (This is a conflict by design!)
 - Optional: Change default input binding for action "ToggleHideQuest" in your [Documents]\The Witcher 3\input.settings in the section [EMPTY_CONTEXT].
 
