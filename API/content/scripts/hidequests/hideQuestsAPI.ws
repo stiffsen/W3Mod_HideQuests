@@ -1,3 +1,4 @@
+// ScriptMerger:ReplaceInCaseOfConflicts
 // ---=== modHideQuests API start ===---	
 
 
